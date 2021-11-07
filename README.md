@@ -6,7 +6,7 @@ Old Bricks New Tricks
 
 ## Project Description
 
-This website will allow you to enter in the ID of a LEGO set and will give back alternate builds for that set. 
+This website will allow you to enter the ID of a LEGO set and will give back alternate build ideas for that set. 
 
 ## API and Data Sample
 [Rebrickable API containing example ID #](https://rebrickable.com/api/v3/lego/sets/75936-1/alternates/?key=430949585e7e48d558a057f45e6f437f)
@@ -42,7 +42,7 @@ This website will allow you to enter in the ID of a LEGO set and will give back 
 
 #### MVP 
 
-- API will fetch alternate builds for lego set #ID 
+- API will fetch alternate builds for LEGO set IDs
 - Functional submit button
 - Displayed info: Image, build name and link to build page
 
@@ -50,9 +50,9 @@ This website will allow you to enter in the ID of a LEGO set and will give back 
 #### PostMVP  
 
 - Drop down option for 'Search by name'
-- Submit button stylized to look like lego brick
+- Submit button stylized to look like LEGO brick
 - Create a favoites list
-- Use second API to populate instrustional PDF of builds
+- Use second API to populate instructional PDF of builds
 
 ## Project Schedule
 
