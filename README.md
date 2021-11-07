@@ -68,7 +68,7 @@ This website will allow you to enter in the ID of a LEGO set and will give back 
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+[Old Bricks Sticky Note Matrix](https://i.ibb.co/rMy5XtG/Old-Bricks-Priority-Matrix.png)
 
 ## Timeframes
 
