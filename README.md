@@ -6,11 +6,10 @@ Old Bricks New Tricks
 
 ## Project Description
 
-This website will allow you to enter in the an ID of a LEGO set and will give back alternate builds for that set. 
+This website will allow you to enter in the ID of a LEGO set and will give back alternate builds for that set. 
 
 ## API and Data Sample
-Rebrickable API containing example ID #
-https://rebrickable.com/api/v3/lego/sets/75936-1/alternates/?key=430949585e7e48d558a057f45e6f437f
+[Rebrickable API containing example ID #](https://rebrickable.com/api/v3/lego/sets/75936-1/alternates/?key=430949585e7e48d558a057f45e6f437f)
 
 ```
   {
@@ -39,16 +38,9 @@ https://rebrickable.com/api/v3/lego/sets/75936-1/alternates/?key=430949585e7e48d
 
 ## Wireframes
 
-https://i.ibb.co/LStv9GB/Old-Bricks-Wireframe.png
-
-Mobile and Desktop mockups
-
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+[Mobile and Desktop mockups](https://i.ibb.co/LStv9GB/Old-Bricks-Wireframe.png)
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - API will fetch alternate builds for lego set #ID 
 - Functional submit button
@@ -56,7 +48,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
 - Drop down option for 'Search by name'
 - Submit button stylized to look like lego brick
@@ -65,19 +56,15 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|Nov 05-07| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Nov 08| Project Approval | Incomplete
+|Nov 09| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Nov 11| Pseudocode / actual code | Incomplete
+|Nov 12| MVP | Incomplete
+|Nov 15| Presentations | Incomplete
 
 ## Priority Matrix
 
