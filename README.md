@@ -72,25 +72,33 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 3hrs| 3hrs | 3hrs |
+| Wireframes | H | 2hrs| 2hrs | 2hrs |
+| Priority Matrix | H | 3hrs| 3hrs | 3hrs |
+| Timeframes | H | 2hrs| 2hrs | 2hrs |
+| Working with API | H | 2hrs| 2hrs | 2hrs |
+| Pseudocode | H | 1hrs| 0hrs | 0hrs |
+| HTML Structure | H | 2hrs| 0hrs | hrs |
+| CSS Structure | H | 3hrs| 0hrs | 0hrs |
+| JS Structure | H | 3hrs| 0hrs | 0hrs |
+| Submit Button Click | H | 2hrs| 0hrs | 0hrs |
+| Creating & Appening Elements | H | 2hrs| 0hrs | 0hrs |
+| Eventlistener on click | H | 2hrs| 0hrs | 0hrs |
+| Remove Eventlistener | H | 2hrs| 0hrs | 0hrs |
+| Brick Build Fetch function| H | 3hrs | 0hrs| 0hrs|
+| Flexbox | H | 2hrs| 0hrs | 0hrs |
+| Media Query Mobile | H | 3hrs| 0hrs | 0hrs |
+| MVP Final Testing/Debugging | H | 3hrs| 0hrs | 0hrs |
+| Post-MVP | M | 4hrs| 0hrs | 0hrs |
+| Total | H | 40hrs| 12hrs | 0hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+N/A
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+N/A
