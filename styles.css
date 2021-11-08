@@ -1,0 +1,29 @@
+/* header styling
+want the header to have a small banner. Maybe a solid color, a little transparent.
+wasn't in mockup but can make it look a little nicer*/
+body {
+  font-family: 'Exo', sans-serif;
+  background-image: url("LegoBricks.jpg");
+  height: 100vh;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+header {
+  background: #006d77;
+opacity: .8;
+height: 50px;
+text-align: center;
+border-radius: 10px;
+margin: 50px 0px 20px 0px;
+box-shadow: rgba(245, 242, 242, 0.276) 0px 19px 38px, rgba(249, 248, 248, 0.118) 0px 15px 12px;
+padding-right: 20px;
+}
+
+
+/* style button
+Should try to get it to look like a lego, maybe a little wiggle on it as an effect*/
+
+/* style mocDisplay - this should style the whole section of the input, button and display
+you may need to move things around in HTML to make that possible*/
+/* style footer - make sure you add gitHub and linkdin links and a trade mark (ex ref single col HW*/
