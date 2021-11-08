@@ -59,7 +59,7 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Nov 05-07| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Nov 05-07| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Nov 08| Project Approval | Incomplete
 |Nov 09| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Nov 11| Pseudocode / actual code | Incomplete
@@ -92,7 +92,7 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 | Media Query Mobile | H | 3hrs| 0hrs | 0hrs |
 | MVP Final Testing/Debugging | H | 3hrs| 0hrs | 0hrs |
 | Post-MVP | M | 4hrs| 0hrs | 0hrs |
-| Total | H | 40hrs| 12hrs | 0hrs |
+| Total | H | 44hrs| 12hrs | 0hrs |
 
 ## Code Snippet
 
