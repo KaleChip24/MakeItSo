@@ -1,22 +1,53 @@
 /* header styling
 want the header to have a small banner. Maybe a solid color, a little transparent.
 wasn't in mockup but can make it look a little nicer*/
+html {
+  background: url('LegoBricks.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+
 body {
+margin: 0 auto;
   font-family: 'Exo', sans-serif;
-  background-image: url("LegoBricks.jpg");
-  height: 100vh;
-  background-size:cover;
+  text-align: center;
   color: whitesmoke;
 }
 
-header{
+/*#backGround {
+  background-image: url(LegoBricks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}*/
+
+header, footer{
   background: #006d77;
 opacity: .8;
-height: 50px;
+height: 80px;
 text-align: center;
+padding-top: 3px;
 border-radius: 10px;
 margin: 20px 0px 20px 0px;
-box-shadow: rgba(245, 242, 242, 0.276) 0px 19px 38px, rgba(249, 248, 248, 0.118) 0px 15px 12px;
+}
+
+.display-moc {
+  margin-top: 10px;
+}
+.display-moc img {
+  max-width: 500px;
+  height: auto;
+}
+
+.mocDisplay {
+background: rgba( 7, 245, 165, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 20px;
 }
 
 /*footer {
@@ -24,6 +55,7 @@ box-shadow: rgba(245, 242, 242, 0.276) 0px 19px 38px, rgba(249, 248, 248, 0.118)
   width: 100vw;
   position: absolute;
 }
+
 /* style button
 Should try to get it to look like a lego, maybe a little wiggle on it as an effect*/
 
