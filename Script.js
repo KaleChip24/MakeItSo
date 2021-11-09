@@ -49,7 +49,7 @@ function showBuildList(builds) {
     displayMoc.appendChild(buildTitle)
     const buildLink = document.createElement("h4")
     buildLink.className = "build-link"
-    buildLink.innerHTML = `<a href='${build.moc_url}'>Click Here for Moc Build</a>`
+    buildLink.innerHTML = `<a href='${build.moc_url}' target='_blank'>Click Here for Moc Build</a>`
     displayMoc.appendChild(buildLink)
   })
 
