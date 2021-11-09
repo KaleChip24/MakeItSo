@@ -9,7 +9,7 @@ body {
   color: whitesmoke;
 }
 
-header, footer{
+header{
   background: #006d77;
 opacity: .8;
 height: 50px;
@@ -19,7 +19,7 @@ margin: 20px 0px 20px 0px;
 box-shadow: rgba(245, 242, 242, 0.276) 0px 19px 38px, rgba(249, 248, 248, 0.118) 0px 15px 12px;
 }
 
-footer {
+/*footer {
   bottom: 0;
   width: 100vw;
   position: absolute;

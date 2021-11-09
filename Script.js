@@ -35,15 +35,22 @@ searchForm.addEventListener("submit", (e) => {
 // need event listened to delete previous search
 
 const mocOptions = document.querySelector("#mocOptions");
+const displayMoc = document.createElement("div")
+displayMoc.className = "display-moc"
+mocOptions.appendChild(displayMoc)
 
 function showBuildList(builds) {
   builds.forEach(build => {
-    const buildTitle = document.createElement("h4")
-    buildTitle.innerText = `${build.designer_name}`
-    mocOptions.appendChild(buildTitle)
     const buildImg = document.createElement("img")
     buildImg.src = build.moc_img_url;
-    mocOptions.appendChild(buildImg);
+    displayMoc.appendChild(buildImg);
+    const buildTitle = document.createElement("h4")
+    buildTitle.innerText = `${build.name}, by ${build.designer_name}`
+    displayMoc.appendChild(buildTitle)
+    const buildLink = document.createElement("h4")
+    buildLink.className = "build-link"
+    buildLink.textContent = build.moc_url
+    displayMoc.appendChild(buildLink)
   })
 
 
