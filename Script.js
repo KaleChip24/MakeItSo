@@ -10,22 +10,23 @@ async function fetchBuilds(set_num) {
   try {
     const url = `https://rebrickable.com/api/v3/lego/sets/${set_num}/alternates/?key=430949585e7e48d558a057f45e6f437f`;
     const res = await axios.get(url);
-    // const bricksData = res.data.results
+    const bricksData = res.data
     console.log(res.data.results)
   } catch (error) {
     console.log(error)
   }
 }
 
-fetchBuilds("75936-1")
+// fetchBuilds("75936-1")
 
 
-// // need an event listener on the button
-// searchForm.addEventListener("submit", () => {
-//   let set_num = searchInput.value;
-//   console.log(searchInput);
-//   fetchBuilds(searchInput);
-// })
+// need an event listener on the button
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let set_num = searchInput.value;
+  console.log(searchInput.value);
+  fetchBuilds(set_num);
+})
 
 
 // need event listened to delete previous search
