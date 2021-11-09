@@ -26,6 +26,7 @@ async function fetchBuilds(set_num) {
 // need an event listener on the button
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
+  removeBuild();
   let set_num = searchInput.value;
   console.log(searchInput.value);
   fetchBuilds(set_num);
@@ -33,6 +34,7 @@ searchForm.addEventListener("submit", (e) => {
 
 
 // need event listened to delete previous search
+
 
 const mocOptions = document.querySelector("#mocOptions");
 const displayMoc = document.createElement("div")
@@ -52,13 +54,18 @@ function showBuildList(builds) {
     buildLink.innerHTML = `<a href='${build.moc_url}' target='_blank'>Click Here for Moc Build</a>`
     displayMoc.appendChild(buildLink)
   })
-
-
   // create and append img for builds
   // create the inner text
   // display build name
   // display build link
   // make sure link is clickable! or that you can add a copy paste window
   // make sure to console log everything so that you know if it's working
-  // console.log(buildImg)
+}
+
+
+function removeBuild() {
+  const removeElement = document.querySelector(".display-moc")
+  while (removeElement.lastChild) {
+    removeElement.removeChild(removeElement.lastChild)
+  }
 }
