@@ -4,10 +4,12 @@ wasn't in mockup but can make it look a little nicer*/
 html {
   background: url('LegoBricks.jpg') no-repeat center fixed;     
     background-size: cover;
+height: 100%;
+margin: 0;
+padding:0;
 }
 
 body {
-margin: 0 auto;
   font-family: 'Exo', sans-serif;
   text-align: center;
   color: whitesmoke;
@@ -33,7 +35,6 @@ height: 100px;
 text-align: center;
 padding-top: 3px;
 margin: 20px 0px 20px 0px;
-overflow: hidden;
 }
 
 
@@ -49,8 +50,16 @@ overflow: hidden;
 object-fit: contain;
 }
 
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height:100%;
+}
+
+
 .mocDisplay {
-  height: 80vh;
+  flex: 1;
+  /*height: 80vh;*/
   background: rgba( 195, 251, 233, 0.25 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
@@ -58,7 +67,7 @@ object-fit: contain;
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 margin-top: 20px;
-overflow: hidden;
+/*overflow: hidden;*/
 }
 
 .display-moc{
@@ -77,6 +86,10 @@ align-content: center;
 ul li {
   display: inline;
   padding: 5px;
+}
+
+p {
+  margin-bottom: 20px;
 }
 /*footer {
   bottom: 0;
