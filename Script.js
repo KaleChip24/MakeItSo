@@ -43,16 +43,20 @@ mocOptions.appendChild(displayMoc)
 
 function showBuildList(builds) {
   builds.forEach(build => {
+    //create mini div
+    const miniDiv = document.createElement("div")
+    miniDiv.className = "mini-div"
     const buildImg = document.createElement("img")
     buildImg.src = build.moc_img_url;
-    displayMoc.appendChild(buildImg);
+    miniDiv.appendChild(buildImg);
     const buildTitle = document.createElement("h4")
     buildTitle.innerText = `${build.name}, by ${build.designer_name}`
-    displayMoc.appendChild(buildTitle)
+    miniDiv.appendChild(buildTitle)
     const buildLink = document.createElement("h4")
     buildLink.className = "build-link"
     buildLink.innerHTML = `<a href='${build.moc_url}' target='_blank'>Click Here for Moc Build</a>`
-    displayMoc.appendChild(buildLink)
+    miniDiv.appendChild(buildLink)
+    displayMoc.appendChild(miniDiv)
   })
   // create and append img for builds
   // create the inner text
