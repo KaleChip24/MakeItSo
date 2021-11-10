@@ -28,6 +28,31 @@ padding-top: 3px;
 /*margin: 20px 0px 20px 0px;*/
 }
 
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height:100%;
+}
+
+
+form {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+input {
+  align-self: center;
+  height: 25px
+}
+
+button {
+  background-image: url(blocks.png);
+  background-size: cover;
+  width: 75px;
+  height:75px;
+  margin-left: 30px;
+}
+
 .findMoc{
   margin: 30px;
 }
@@ -44,11 +69,6 @@ padding-top: 3px;
 object-fit: contain;
 }
 
-#main-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height:100%;
-}
 
 
 .mocDisplay {
