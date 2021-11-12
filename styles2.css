@@ -1,0 +1,194 @@
+/* header styling
+want the header to have a small banner. Maybe a solid color, a little transparent.
+wasn't in mockup but can make it look a little nicer*/
+
+/*THIS IS STYLE SHEET 2 - MESS AROUND WITH STYLING HERE*/
+
+html {
+  background: url('LegoBricks.jpg') no-repeat center fixed;     
+    background-size: cover;
+height: 100%;
+margin: 0;
+padding:0;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+header, footer{
+background: rgba( 156, 245, 216, .75);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 100px;
+text-align: center;
+padding-top: 3px;
+/*margin: 20px 0px 20px 0px;*/
+}
+
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height:100%;
+}
+
+
+form {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+form img {
+height:150px;
+}
+
+input {
+  align-self: center;
+  height: 25px;
+  margin-top: 10px;
+text-align: center;
+}
+
+button {
+  align-self: center;
+  background-image: url(YellowBrick.png);
+  background-color: rgba(245, 245, 245, 0);
+  border-color: rgba(245, 245, 245, 0);
+  background-size: cover;
+  width: 75px;
+  height:75px;
+  margin-left: 30px;
+}
+
+button:hover{
+  animation: shake 1.5s;
+  animation-iteration-count:initial;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.findMoc{
+  margin: 30px;
+}
+
+.display-moc {
+  margin-top:30px;
+}
+.display-moc img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+object-fit: contain;
+border: 2px soild whitesmoke;
+}
+
+
+
+.mocDisplay {
+  flex: 1;
+  min-height: 600px;
+  background: rgba( 195, 251, 233, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 20px;
+/*overflow: hidden;*/
+margin-bottom: 100px;
+
+}
+
+h4 {
+  align-self: flex-end;
+}
+
+.display-moc{
+  display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+align-items:center;
+align-content: center;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3px;
+}
+
+small {
+  align-self: center;
+}
+
+
+footer {
+  bottom: 0;
+  height: 2.5rem;
+  width: 99%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*position fixed will keep the footer fixed to the end of the screen no matter
+  no matter where you are but is overlapping the main div*/
+  /* position:relative; will keep the bar at the bottom and spaced nicely but will bounce
+  back up when the container above is empty*/
+  /*position:*/
+  position: fixed;
+}
+
+/* style button
+Should try to get it to look like a lego, maybe a little wiggle on it as an effect*/
+
+/* style mocDisplay - this should style the whole section of the input, button and display
+you may need to move things around in HTML to make that possible*/
+
+
+/* style footer - make sure you add gitHub and linkdin links and a trade mark (ex ref single col HW*/
+
+/* still need parameters added into the media query*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}

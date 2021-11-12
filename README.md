@@ -60,10 +60,10 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 |  Day | Deliverable | Status
 |---|---| ---|
 |Nov 05-07| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Nov 08| Project Approval | Incomplete
-|Nov 09| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Nov 11| Pseudocode / actual code | Incomplete
-|Nov 12| MVP | Incomplete
+|Nov 08| Project Approval | Complete
+|Nov 09| Core Application Structure (HTML, CSS, etc.) | Complete
+|Nov 11| Pseudocode / actual code | Complete
+|Nov 12| MVP | Complete
 |Nov 15| Presentations | Incomplete
 
 ## Priority Matrix
@@ -79,16 +79,16 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 | Priority Matrix | H | 3hrs| 3hrs | 3hrs |
 | Timeframes | H | 2hrs| 2hrs | 2hrs |
 | Working with API | H | 2hrs| 2hrs | 2hrs |
-| Pseudocode | H | 1hrs| 0hrs | 0hrs |
-| HTML Structure | H | 2hrs| 0hrs | hrs |
+| Pseudocode | H | 1hrs| .5hrs | .5hrs |
+| HTML Structure | H | 2hrs| 2hrs | 2hrs |
 | CSS Structure | H | 3hrs| 0hrs | 0hrs |
-| JS Structure | H | 3hrs| 0hrs | 0hrs |
-| Submit Button Click | H | 2hrs| 0hrs | 0hrs |
-| Creating & Appening Elements | H | 2hrs| 0hrs | 0hrs |
-| Eventlistener on click | H | 2hrs| 0hrs | 0hrs |
-| Remove Eventlistener | H | 2hrs| 0hrs | 0hrs |
-| Brick Build Fetch function| H | 3hrs | 0hrs| 0hrs|
-| Flexbox | H | 2hrs| 0hrs | 0hrs |
+| JS Structure | H | 3hrs| 3hrs | 3hrs |
+| Submit Button Click | H | 2hrs| 1hrs | 1hrs |
+| Creating & Appening Elements | H | 2hrs| 2hrs | 2hrs |
+| Eventlistener on click | H | 2hrs| 1.5hrs | 1.5hrs |
+| Remove Eventlistener | H | 2hrs| 1hrs | 1hrs |
+| Brick Build Fetch function| H | 3hrs | 3hrs| 3hrs|
+| Flexbox | H | 2hrs| 2hrs | 2hrs |
 | Media Query Mobile | H | 3hrs| 0hrs | 0hrs |
 | MVP Final Testing/Debugging | H | 3hrs| 0hrs | 0hrs |
 | Post-MVP | M | 4hrs| 0hrs | 0hrs |
