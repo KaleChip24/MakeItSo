@@ -88,14 +88,12 @@ button:hover{
   margin: 30px;
 }
 
-.display-moc {
-  margin-top:30px;
-}
+
 .display-moc img {
   max-width: 500px;
   height: auto;
   border-radius: 20px;
-  margin-top: 25px;
+  margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 object-fit: contain;
 border: 2px soild whitesmoke;
@@ -176,13 +174,87 @@ you may need to move things around in HTML to make that possible*/
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    header{
+      height: 50px;
+      font-size: 10px;
+    }
+  
+    form img{
+      height:80px;
+    }
+    #moc-search{
+      height:14px;
+    }
+#getMoc{
+  height:50px;
+  width:50px;
+}
 
+.display-moc img {
+  max-width: 260px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+object-fit: contain;
+
+}
+h4{
+  font-size: 15px;
+  margin: 10px;
+}
+
+#btmTag{
+  margin-top: 50px;
+
+}
+
+    footer {
+      max-width: 95.5%;
+    }
 }
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    header{
+      height: 45px;
+      font-size: 9px;
+    }
+  
+    form img{
+      height:80px;
+    }
+    #moc-search{
+      height:14px;
+    }
+#getMoc{
+  height:35px;
+  width:35px;
+}
+
+.display-moc img {
+  max-width: 260px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+object-fit: contain;
+}
+h4{
+  font-size: 15px;
+  margin: 10px;
+}
+
+#btmTag{
+  margin-top: 50px;
+  border-bottom: 2px soild whitesmoke;
+}
+
+    footer {
+      max-width: 95%;
+    }
 
 }
 
@@ -190,5 +262,42 @@ you may need to move things around in HTML to make that possible*/
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    header{
+      height: 80px;
+      font-size: 15px;
+    }
+  
+    form img{
+      height:100px;
+    }
+    #moc-search{
+      height:20px;
+    }
+#getMoc{
+  height:50px;
+  width:50px;
+}
+
+.display-moc img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+object-fit: contain;
+}
+h4{
+  font-size: 15px;
+  margin: 10px;
+}
+
+#btmTag{
+  margin-top: 50px;
+  border-bottom: 2px soild whitesmoke;
+}
+
+    footer {
+      max-width: 97.5%;
+    }
 
 }
