@@ -194,6 +194,12 @@ you may need to move things around in HTML to make that possible*/
 @media only screen 
   and (max-device-width: 1000px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+    header{
+      height: 80px;
+      font-size: 13px;
+      padding-top: 6px;
+    }
     
 .display-moc{
   flex-direction: column;
@@ -218,14 +224,27 @@ you may need to move things around in HTML to make that possible*/
     and (max-device-width: 500px) 
     and (-webkit-min-device-pixel-ratio: 1) {
       
+      header{
+        height: 50px;
+        font-size: 10px;
+        padding-top: 6px;
+      }
+      
   .display-moc{
     flex-direction: column;
   }
   
-
-  .display-moc img{
-    max-width: 50px;
-    max-height: 100;
+  .display-moc img {
+    max-width: 250px;
+  }
+  
+  .title {
+    max-width: 200px;
+    padding-left: 20px;
+  }
+  
+  .miniDiv {
+    width: 100%;
   }
       }
 
