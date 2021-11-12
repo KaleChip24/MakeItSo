@@ -19,7 +19,7 @@ body {
 }
 
 header, footer{
-background: rgba(131, 129, 127, 0.85);
+background: rgba(131, 129, 127, 0.75);
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 15px );
 -webkit-backdrop-filter: blur( 15px );
@@ -105,7 +105,7 @@ border: 2px soild whitesmoke;
 .mocDisplay {
   flex: 1;
   min-height: 600px;
-  background: rgba( 195, 251, 233, 0.25 );
+  background: rgba(90, 109, 103, 0.317);
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
@@ -127,6 +127,12 @@ flex-flow: row wrap;
 justify-content: space-evenly;
 align-items:center;
 align-content: center;
+}
+
+.title {
+  max-width: 400px;
+ padding-left: 40px;
+  
 }
 
 .build-link a, .bottomTxt a{
@@ -163,7 +169,7 @@ small {
 footer {
   bottom: 0;
   height: 2.5rem;
-  width: 99%;
+  width: 98.2%;
   margin-top: 10px;
   margin-bottom: 10px;
   /*position fixed will keep the footer fixed to the end of the screen no matter
@@ -184,135 +190,42 @@ you may need to move things around in HTML to make that possible*/
 /* style footer - make sure you add gitHub and linkdin links and a trade mark (ex ref single col HW*/
 
 /* still need parameters added into the media query*/
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    header{
-      height: 50px;
-      font-size: 10px;
-    }
-  
-    form img{
-      height:80px;
-    }
-    #moc-search{
-      height:14px;
-    }
-#getMoc{
-  height:50px;
-  width:50px;
-}
-
-.display-moc img {
-  max-width: 260px;
-  height: auto;
-  border-radius: 20px;
-  margin-top: 30px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-object-fit: contain;
-
-}
-h4{
-  font-size: 15px;
-  margin: 10px;
-}
-
-#btmTag{
-  margin-top: 50px;
-
-}
-
-    footer {
-      max-width: 95.5%;
-    }
-}
-
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    header{
-      height: 45px;
-      font-size: 9px;
-    }
-  
-    form img{
-      height:80px;
-    }
-    #moc-search{
-      height:14px;
-    }
-#getMoc{
-  height:35px;
-  width:35px;
-}
-
-.display-moc img {
-  max-width: 260px;
-  height: auto;
-  border-radius: 20px;
-  margin-top: 30px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-object-fit: contain;
-}
-h4{
-  font-size: 15px;
-  margin: 10px;
-}
-
-#btmTag{
-  margin-top: 50px;
-  border-bottom: 2px soild whitesmoke;
-}
-
-    footer {
-      max-width: 95%;
-    }
-
-}
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  and (max-device-width: 1000px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    header{
-      height: 80px;
-      font-size: 15px;
-    }
-  
-    form img{
-      height:100px;
-    }
-    #moc-search{
-      height:20px;
-    }
-#getMoc{
-  height:50px;
-  width:50px;
+    
+.display-moc{
+  flex-direction: column;
 }
 
 .display-moc img {
   max-width: 300px;
-  height: auto;
-  border-radius: 20px;
-  margin-top: 50px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-object-fit: contain;
-}
-h4{
-  font-size: 15px;
-  margin: 10px;
 }
 
-#btmTag{
-  margin-top: 50px;
-  border-bottom: 2px soild whitesmoke;
+.title {
+  max-width: 250px;
+  padding-left: 20px;
 }
 
-    footer {
-      max-width: 97.5%;
+.miniDiv {
+  width: 100%;
+}
+
     }
 
-}
+    @media only screen 
+    and (max-device-width: 500px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      
+  .display-moc{
+    flex-direction: column;
+  }
+  
+
+  .display-moc img{
+    max-width: 50px;
+    max-height: 100;
+  }
+      }
+
