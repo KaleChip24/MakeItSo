@@ -129,6 +129,18 @@ align-items:center;
 align-content: center;
 }
 
+.build-link a, .bottomTxt a{
+  color: rgb(11, 0, 128);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.build-link a:hover, .bottomTxt a:hover{
+  color:tomato;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
 .icons {
   width: 30px;
