@@ -201,6 +201,15 @@ you may need to move things around in HTML to make that possible*/
       padding-top: 6px;
     }
     
+form img {
+  height: 100px;
+}
+
+form button{
+  height: 40px;
+  width: 40px;
+}
+
 .display-moc{
   flex-direction: column;
 }
@@ -221,7 +230,7 @@ you may need to move things around in HTML to make that possible*/
     }
 
     @media only screen 
-    and (max-device-width: 500px) 
+    and (max-device-width: 300px) 
     and (-webkit-min-device-pixel-ratio: 1) {
       
       header{
@@ -229,13 +238,22 @@ you may need to move things around in HTML to make that possible*/
         font-size: 10px;
         padding-top: 6px;
       }
+
+      form img {
+        height: 80px;
+      }
+      
+      form button{
+        height: 40px;
+        width: 40px;
+      }
       
   .display-moc{
     flex-direction: column;
   }
   
   .display-moc img {
-    max-width: 250px;
+    max-width: 220px;
   }
   
   .title {
@@ -246,5 +264,8 @@ you may need to move things around in HTML to make that possible*/
   .miniDiv {
     width: 100%;
   }
+
       }
+
+
 

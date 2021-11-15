@@ -89,15 +89,24 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 | Remove Eventlistener | H | 2hrs| 1hrs | 1hrs |
 | Brick Build Fetch function| H | 3hrs | 3hrs| 3hrs|
 | Flexbox | H | 2hrs| 2hrs | 2hrs |
-| Media Query Mobile | H | 3hrs| 0hrs | 0hrs |
-| MVP Final Testing/Debugging | H | 3hrs| 0hrs | 0hrs |
-| Post-MVP | M | 4hrs| 0hrs | 0hrs |
+| Media Query Mobile | H | 3hrs| 2hrs | 2hrs |
+| MVP Final Testing/Debugging | H | 3hrs| 2hrs | 0]2hrs |
+| Post-MVP | M | 4hrs| 3hrs | 3hrs |
 | Total | H | 44hrs| 12hrs | 0hrs |
 
 ## Code Snippet
 
 ```
-N/A
+button {
+  align-self: center;
+  background-image: url(YellowBrick.png);
+  background-color: rgba(245, 245, 245, 0);
+  border-color: rgba(245, 245, 245, 0);
+  background-size: cover;
+  width: 75px;
+  height:75px;
+  margin-left: 30px;
+}
 ```
 
 ## Change Log
