@@ -50,6 +50,7 @@ function showBuildList(builds) {
     buildImg.src = build.moc_img_url;
     miniDiv.appendChild(buildImg);
     const buildTitle = document.createElement("h4")
+    buildTitle.className = "title"
     buildTitle.innerText = `${build.name}, by ${build.designer_name}`
     miniDiv.appendChild(buildTitle)
     const buildLink = document.createElement("h4")
@@ -73,3 +74,9 @@ function removeBuild() {
     removeElement.removeChild(removeElement.lastChild)
   }
 }
+
+
+// function addFav() {
+//   const favBtn = document.createElement("button")
+
+// }
