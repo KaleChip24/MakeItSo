@@ -136,17 +136,20 @@ align-content: center;
 }
 
 .build-link a, .bottomTxt a{
-  color: rgb(11, 0, 128);
+  color: rgb(14, 216, 243);
   background-color: transparent;
   text-decoration: none;
 }
 
 .build-link a:hover, .bottomTxt a:hover{
-  color:tomato;
+  color:rgb(255, 252, 71);
   background-color: transparent;
   text-decoration: underline;
 }
 
+.build-link{
+  margin-top: -15px;
+}
 
 .icons {
   width: 30px;
@@ -190,6 +193,14 @@ you may need to move things around in HTML to make that possible*/
 /* style footer - make sure you add gitHub and linkdin links and a trade mark (ex ref single col HW*/
 
 /* still need parameters added into the media query*/
+@media only screen 
+  and (max-device-width: 3000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    footer {
+      min-width: 98.4%;
+    }
+  }
+
 
 @media only screen 
   and (max-device-width: 1000px) 
@@ -230,7 +241,7 @@ form button{
     }
 
     @media only screen 
-    and (max-device-width: 300px) 
+    and (max-device-width: 400px) 
     and (-webkit-min-device-pixel-ratio: 1) {
       
       header{
@@ -265,6 +276,9 @@ form button{
     width: 100%;
   }
 
+  footer {
+    max-width: 50%;
+  }
       }
 
 
