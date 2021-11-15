@@ -75,8 +75,3 @@ function removeBuild() {
   }
 }
 
-
-// function addFav() {
-//   const favBtn = document.createElement("button")
-
-// }
