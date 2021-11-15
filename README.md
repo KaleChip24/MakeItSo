@@ -50,9 +50,9 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 #### PostMVP  
 
 - Drop down option for 'Search by name'
-- Submit button stylized to look like LEGO brick
+- Add default picture that sits in the body until you search
 - Create a favoites list
-- Use second API to populate instructional PDF of builds
+- Use second API to populate alternative builds from other websites
 
 ## Project Schedule
 
@@ -110,4 +110,4 @@ button {
 ```
 
 ## Change Log
-N/A
+ - Updated Post-MVPs list
