@@ -1,8 +1,3 @@
-/* header styling
-want the header to have a small banner. Maybe a solid color, a little transparent.
-wasn't in mockup but can make it look a little nicer*/
-
-/*THIS IS STYLE SHEET 2 - MESS AROUND WITH STYLING HERE*/
 
 html {
   background: url('RedHuejpg.jpg') no-repeat center fixed;     
@@ -111,7 +106,6 @@ border: 2px soild whitesmoke;
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 margin-top: 20px;
-/*overflow: hidden;*/
 margin-bottom: 100px;
 
 }
@@ -175,18 +169,6 @@ footer {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-/* style button
-Should try to get it to look like a lego, maybe a little wiggle on it as an effect*/
-
-/* style mocDisplay - this should style the whole section of the input, button and display
-you may need to move things around in HTML to make that possible*/
-
-
-/* style footer - make sure you add gitHub and linkdin links and a trade mark (ex ref single col HW*/
-
-/* still need parameters added into the media query*/
-
 
     @media only screen 
     and (max-device-width: 400px) 
