@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Old Bricks New Tricks
+[Old Bricks New Tricks](https://kalechip24.github.io/Old-Bricks-New-Tricks/)
 
 ## Project Description
 
