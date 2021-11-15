@@ -81,7 +81,7 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 | Working with API | H | 2hrs| 2hrs | 2hrs |
 | Pseudocode | H | 1hrs| .5hrs | .5hrs |
 | HTML Structure | H | 2hrs| 2hrs | 2hrs |
-| CSS Structure | H | 3hrs| 0hrs | 0hrs |
+| CSS Structure | H | 3hrs| 3hrs | 3hrs |
 | JS Structure | H | 3hrs| 3hrs | 3hrs |
 | Submit Button Click | H | 2hrs| 1hrs | 1hrs |
 | Creating & Appening Elements | H | 2hrs| 2hrs | 2hrs |
@@ -90,9 +90,9 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 | Brick Build Fetch function| H | 3hrs | 3hrs| 3hrs|
 | Flexbox | H | 2hrs| 2hrs | 2hrs |
 | Media Query Mobile | H | 3hrs| 2hrs | 2hrs |
-| MVP Final Testing/Debugging | H | 3hrs| 2hrs | 0]2hrs |
+| MVP Final Testing/Debugging | H | 3hrs| 2hrs | 2hrs |
 | Post-MVP | M | 4hrs| 3hrs | 3hrs |
-| Total | H | 44hrs| 12hrs | 0hrs |
+| Total | H | 44hrs| 38hrs |38hrs |
 
 ## Code Snippet
 
