@@ -96,6 +96,8 @@ This website will allow you to enter the ID of a LEGO set and will give back alt
 
 ## Code Snippet
 
+
+Brick Button
 ```
 button {
   align-self: center;
@@ -108,6 +110,21 @@ button {
   margin-left: 30px;
 }
 ```
+Color Change on Links
+```
+.build-link a, .bottomTxt a{
+  color: rgb(14, 216, 243);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.build-link a:hover, .bottomTxt a:hover{
+  color:rgb(255, 252, 71);
+  background-color: transparent;
+  text-decoration: underline;
+}
+```
+
 
 ## Change Log
  - Updated Post-MVPs list

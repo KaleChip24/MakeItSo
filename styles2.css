@@ -28,7 +28,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 height: 100px;
 text-align: center;
 padding-top: 3px;
-/*margin: 20px 0px 20px 0px;*/
 }
 
 #main-wrapper {
@@ -172,15 +171,9 @@ small {
 footer {
   bottom: 0;
   height: 2.5rem;
-  width: 98.2%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  /*position fixed will keep the footer fixed to the end of the screen no matter
-  no matter where you are but is overlapping the main div*/
-  /* position:relative; will keep the bar at the bottom and spaced nicely but will bounce
-  back up when the container above is empty*/
-  /*position:*/
-  position: fixed;
 }
 
 /* style button
@@ -193,52 +186,7 @@ you may need to move things around in HTML to make that possible*/
 /* style footer - make sure you add gitHub and linkdin links and a trade mark (ex ref single col HW*/
 
 /* still need parameters added into the media query*/
-@media only screen 
-  and (max-device-width: 3000px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    footer {
-      min-width: 98.4%;
-    }
-  }
 
-
-@media only screen 
-  and (max-device-width: 1000px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-    header{
-      height: 80px;
-      font-size: 13px;
-      padding-top: 6px;
-    }
-    
-form img {
-  height: 100px;
-}
-
-form button{
-  height: 40px;
-  width: 40px;
-}
-
-.display-moc{
-  flex-direction: column;
-}
-
-.display-moc img {
-  max-width: 300px;
-}
-
-.title {
-  max-width: 250px;
-  padding-left: 20px;
-}
-
-.miniDiv {
-  width: 100%;
-}
-
-    }
 
     @media only screen 
     and (max-device-width: 400px) 
@@ -281,5 +229,49 @@ form button{
   }
       }
 
+      @media only screen 
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
+    header{
+      height: 80px;
+      font-size: 13px;
+      padding-top: 6px;
+    }
+    
+form img {
+  height: 100px;
+}
+
+form button{
+  height: 40px;
+  width: 40px;
+}
+
+.display-moc{
+  flex-direction: column;
+}
+
+.display-moc img {
+  max-width: 300px;
+}
+
+.title {
+  max-width: 250px;
+  padding-left: 20px;
+}
+
+.miniDiv {
+  width: 100%;
+}
+
+    }
+
+      @media only screen 
+      and (max-device-width: 3000px) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        footer {
+          min-width: 98.4%;
+        }
+      }
 
